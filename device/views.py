@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Device, Tracking
 
 from rest_framework.views import APIView
-from rest_framework.generics import ListAPIView, RetrieveAPIView
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 
 from .serializers import DeviceListSerializer, TrackingSerializer
